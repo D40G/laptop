@@ -135,36 +135,19 @@ export default function Home() {
             className="bg-black w-screen h-screen z-[9999]"
           >
             <div className="flex h-screen space-y-10 flex-col justify-center items-center">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="140"
-                height="140"
-                version="1.1"
-                viewBox="0 0 48.745 48.747"
-              >
-                <g fill="#0078d4">
-                  <rect
-                    x="2.2848e-15"
-                    y="-.00011033"
-                    width="23.105"
-                    height="23.105"
-                  />
-                  <rect
-                    x="25.64"
-                    y="-.00011033"
-                    width="23.105"
-                    height="23.105"
-                  />
-                  <rect
-                    x="2.2848e-15"
-                    y="25.642"
-                    width="23.105"
-                    height="23.105"
-                  />
-                  <rect x="25.64" y="25.642" width="23.105" height="23.105" />
-                </g>
-              </svg>
-              <div className="border-t-white animate-spin ease-linear rounded-full border-4 border-t-4 border-transparent h-12 w-12 mb-4"></div>
+              <div className="grid grid-cols-2 gap-2 w-32 h-16">
+                <div className="space-y-2">
+                  <div className="bg-sky-600 w-full h-full rounded-tl-lg"></div>
+                  <div className="bg-sky-600 w-full h-full rounded-bl-lg"></div>
+                </div>
+                <div className="space-y-2">
+                  <div className="bg-sky-600 w-full h-full rounded-tr-lg"></div>
+                  <div className="bg-sky-600 w-full h-full rounded-br-lg"></div>
+                </div>
+              </div>
+              <div className="absolute bottom-40 lg:bottom-72 md:bottom-72">
+                <div className="border-t-white animate-spin ease-linear rounded-full border-4 border-t-4 border-transparent h-12 w-12"></div>
+              </div>
             </div>
           </Transition>
 
