@@ -164,7 +164,7 @@ export default function Home() {
                   <rect x="25.64" y="25.642" width="23.105" height="23.105" />
                 </g>
               </svg>
-              <div className="border-t-transparent w-10 h-10 border-4 border-white border-dotted rounded-full animate-spin"></div>
+              <div className="border-t-white animate-spin ease-linear rounded-full border-4 border-t-4 border-transparent h-12 w-12 mb-4"></div>
             </div>
           </Transition>
 
