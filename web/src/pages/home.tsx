@@ -102,7 +102,7 @@ export default function Home() {
 
   useEffect(() => {
     setInterval(() => {
-      setStartWindows(false);
+      setStartWindows(true);
     }, 3000);
   }, []);
 
@@ -145,7 +145,7 @@ export default function Home() {
                   <div className="bg-sky-600 w-full h-full rounded-br-lg"></div>
                 </div>
               </div>
-              <div className="absolute bottom-40 lg:bottom-72 md:bottom-72">
+              <div className="absolute bottom-40 lg:bottom-60 md:bottom-60">
                 <div className="border-t-white animate-spin ease-linear rounded-full border-4 border-t-4 border-transparent h-12 w-12"></div>
               </div>
             </div>
