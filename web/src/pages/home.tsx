@@ -102,7 +102,7 @@ export default function Home() {
 
   useEffect(() => {
     setInterval(() => {
-      setStartWindows(true);
+      setStartWindows(false);
     }, 3000);
   }, []);
 
