@@ -11,7 +11,7 @@ const Panel = ({ open }: PanelProps) => {
       leave="transition-opacity duration-500 ease-out slide-out-right"
       leaveFrom="opacity-100"
       leaveTo="opacity-0 duration-500 slide-out-right"
-      className={`absolute right-[13px] bottom-[65px] w-[360px] h-[400px] flex flex-col bg-neutral-900/90 backdrop-blur-2xl border border-neutral-600 rounded-lg shadow-2xl duration-200 overflow-hidden`}
+      className={`absolute right-[13px] bottom-[65px] w-[360px] h-[400px] flex flex-col bg-neutral-900/90 backdrop-blur-3xl border border-neutral-600 rounded-lg shadow-2xl duration-200 overflow-hidden`}
     >
       <div className="flex items-center px-5 py-5 h-full w-[700px]">
         <div className="grid grid-cols-1 space-y-5">

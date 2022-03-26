@@ -22,7 +22,7 @@ const Notification = ({
         leave="transition-opacity duration-500 ease-out slide-out-right"
         leaveFrom="opacity-100"
         leaveTo="opacity-0 duration-500 slide-out-right"
-        className="w-[400px] h-[135px] bg-neutral-900/90 backdrop-blur-2xl right-2 px-4 py-4 rounded-xl space-y-2.5"
+        className="w-[400px] h-[135px] bg-neutral-900/90 backdrop-blur-3xl right-2 px-4 py-4 rounded-xl space-y-2.5"
       >
         <div className="flex justify-between">
           {!isSvg ? (

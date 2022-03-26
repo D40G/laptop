@@ -12,7 +12,7 @@ const CurrentPlaying = ({ open }: PanelProps) => {
       leave="transition-opacity duration-500 ease-out slide-out-right"
       leaveFrom="opacity-100"
       leaveTo="opacity-0 duration-500 slide-out-right"
-      className={`absolute right-[13px] bottom-[475px] w-[360px] h-[160px] flex flex-col bg-neutral-900/90 backdrop-blur-2xl border border-neutral-600 rounded-lg shadow-2xl duration-200 overflow-hidden px-5 py-5`}
+      className={`absolute right-[13px] bottom-[475px] w-[360px] h-[160px] flex flex-col bg-neutral-900/90 backdrop-blur-3xl border border-neutral-600 rounded-lg shadow-2xl duration-200 overflow-hidden px-5 py-5`}
     >
       <div className="flex flex-col">
         <div className="inline-flex space-x-2 items-center">

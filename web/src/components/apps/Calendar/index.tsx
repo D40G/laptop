@@ -25,7 +25,7 @@ const Calendar = ({ open, openCalendar, onClick }: OpenViewCalendarProps) => {
       leaveTo="opacity-0 duration-500 slide-out-right"
       className={`absolute right-[13px] bottom-[65px] w-[335px] h-[400px] ${
         openCalendar ? "" : "!h-14"
-      } flex flex-col bg-neutral-900/70 backdrop-blur-2xl border border-neutral-600 rounded-lg shadow-2xl duration-200 overflow-hidden`}
+      } flex flex-col bg-neutral-900/70 backdrop-blur-3xl border border-neutral-600 rounded-lg shadow-2xl duration-200 overflow-hidden`}
     >
       <div
         className={`${

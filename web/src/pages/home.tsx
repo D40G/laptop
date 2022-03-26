@@ -879,7 +879,7 @@ export default function Home() {
             leave="transition-all"
             leaveFrom="opacity-500 slide-out-bottom"
             leaveTo="opacity-0 duration-500 slide-out-bottom"
-            className="fixed bottom-0 my-16 w-[642px] h-[726px] bg-neutral-900/70 backdrop-blur-2xl rounded-lg shadow-lg"
+            className="fixed bottom-0 my-16 w-[642px] h-[726px] bg-neutral-900/70 backdrop-blur-3xl rounded-lg shadow-lg"
           >
             <div className="px-10 py-10">
               <div className="space-y-7">
@@ -1023,7 +1023,7 @@ export default function Home() {
         />
         <Panel open={openPanel} />
         <CurrentPlaying open={openPanel} />
-        <div className="bg-neutral-900/70 backdrop-blur-2xl py-1 sticky bottom-0 z-50">
+        <div className="bg-neutral-900/70 backdrop-blur-3xl py-1 sticky bottom-0 z-50">
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center space-x-2">
               {startMenu ? (
